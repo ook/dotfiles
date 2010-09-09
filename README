@@ -1,0 +1,6 @@
+Keep in mind that the $HOME/.config directory is heavily use by XDG compliant application 
+(that's a very good thing!) so to use my files under config/, I recommand to symlink them 
+individualy (something like find config -exec ln -s {} ~/.config/ \;).
+
+Since vim is a big part, I store it in another git project (available here: 
+http://github.com/ook/vimconfig)
