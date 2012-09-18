@@ -1,8 +1,5 @@
 # Aliases
 source $HOME/.config/aliases
 
-# RVM
-[[ -s $HOME/.rvm/scripts/rvm ]] && source $HOME/.rvm/scripts/rvm
-
 # Terminal.app colorization (see man ls for mac os)
 export CLICOLOR=1
