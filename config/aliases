@@ -13,6 +13,3 @@ alias 'gg'='git grep -n'
 alias 'gs'='git status'
 alias 'gc'='git commit'
 alias 'gd'='git diff'
-
-# Geek certification
-alias 'sedi'='sed -E -i\'\'' # use sed inplace with extended regexp
