@@ -10,3 +10,6 @@ promptinit
 
 # Use the wunjo prompt theme
 prompt wunjo
+
+# Load rbenv
+eval "$(rbenv init -)"
