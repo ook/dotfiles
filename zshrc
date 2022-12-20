@@ -8,8 +8,13 @@ setopt promptsubst
 autoload -U promptinit
 promptinit
 
-# Use the wunjo prompt theme
-prompt wunjo
+prompt adam2
+
+# GPG agent
+export SSH_AUTH_SOCK=$(gpgconf --list-dirs agent-ssh-socket)
+gpgconf --launch gpg-agent
+# Enable yubico reading
+gpg-connect-agent updatestartuptty /bye
 
 # Load rbenv
 eval "$(rbenv init -)"
